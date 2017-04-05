@@ -2,7 +2,6 @@
 
 var url  = 'http://dnajs.org/';
 
-var assert = require('assert');
 var jsdom =  require('jsdom');
 var window, $;
 function loadWebPage(done) {
