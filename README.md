@@ -15,13 +15,14 @@ $ npm install
 $ npm test  #runs "jasmine spec.js"
 ```
 
-For development testing, set `url` in **spec.js** to your local web server, such as:
+For development testing, set the `url` variable in **spec.js** to your local web server, such as:
 `http://localhost:8080`
 
 <img src=https://raw.githubusercontent.com/dnajs/load-web-page-jsdom-jasmine/master/screenshot.png
    width=600 alt=logo>
 
-For a Mocha version, checkout:<br>
+#### Comparison
+For a Mocha version, check out:<br>
 [load-web-page-jsdom-mocha](https://github.com/dnajs/load-web-page-jsdom-mocha)
 
 ---
