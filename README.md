@@ -9,6 +9,7 @@
 #### Instructions
 Execute `spec-runner.sh.command` or enter the terminal commands:
 ```shell
+$ git clone https://github.com/dnajs/load-web-page-jsdom-jasmine
 $ cd load-web-page-jsdom-jasmine
 $ npm install
 $ npm test  #runs "jasmine spec.js"
