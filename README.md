@@ -1,10 +1,11 @@
+<img src=https://raw.githubusercontent.com/dnajs/dna.js/master/website/static/graphics/dnajs-logo.png
+   align=right width=100 alt=logo>
+
 ### load-web-page-jsdom-jasmine
 
 *Minimal example of loading a web page into jsdom and testing with Jasmine*
 
 ---
-<img src=https://raw.githubusercontent.com/dnajs/dna.js/master/website/static/graphics/dnajs-logo.png
-   align=right width=100 alt=logo>
 
 #### Instructions
 Execute `spec-runner.sh.command` or enter the terminal commands:
