@@ -10,10 +10,20 @@
    "keywords":    ["jsdom", "nodejs", "localhost", "url", "testing", "javascript", "jasmine"],
    "author":      { "name": "dna.js", "url": "http://dnajs.org" },
    "scripts": {
-      "test": "jasmine spec.js"
+      "pretest": "jshint spec.js",
+      "test":    "jasmine spec.js"
+   },
+   "jshintConfig": {
+      "esversion": 6,
+      "strict":    "implied",
+      "node":      true,
+      "jasmine":   true,
+      "undef":     true,
+      "unused":    true
    },
    "devDependencies": {
       "jasmine": "~2.5",
-      "jsdom":   "~9.12"
+      "jsdom":   "~9.12",
+      "jshint":  "~2.9"
    }
 }
