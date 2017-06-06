@@ -1,16 +1,16 @@
 // Jasmine Specification Cases
 
-var url  = 'http://dnajs.org/';
+const url  = 'http://dnajs.org/';
 
-var jsdom =  require('jsdom');
-var window, $;
+const jsdom =  require('jsdom');
+let window, $;
 function loadWebPage(done) {
    function handleWebPage(error, win) {
      window = win;    //make "window" object available to test cases
      $ = win.jQuery;  //make jQuery available to use in test cases
      done();
      }
-   var features = {  //tell jsdom to load and run JavaScript files
+   const features = {  //tell jsdom to load and run JavaScript files
       FetchExternalResources:   ['script'],
       ProcessExternalResources: ['script']
       };
@@ -29,12 +29,12 @@ describe('The web page', () => {
       });
 
    it('has exactly one header, main, and footer', () => {
-      var actual =   {
+      const actual =   {
           header: $('body >header').length,
           main:   $('body >main').length,
           footer: $('body >footer').length
           };
-      var expected = { header: 1, main: 1, footer: 1 };
+      const expected = { header: 1, main: 1, footer: 1 };
       expect(actual).toEqual(expected);
       });
 
