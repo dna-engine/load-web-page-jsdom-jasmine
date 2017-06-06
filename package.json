@@ -1,10 +1,12 @@
 {
    "name":        "load-web-page-jsdom-jasmine",
-   "version":     "1.0.0",
    "description": "Minimal example of loading a web page into jsdom and testing with Jasmine",
+   "version":     "1.0.0",
    "license":     "MIT",
-   "homepage":    "https://github.com/dnajs/load-web-page-jsdom-jasmine",
    "repository":  "dnajs/load-web-page-jsdom-jasmine",
+   "homepage":    "https://github.com/dnajs/load-web-page-jsdom-jasmine",
+   "bugs":        "https://github.com/dnajs/load-web-page-jsdom-jasmine/issues",
+   "docs":        "https://github.com/dnajs/load-web-page-jsdom-jasmine/blob/master/README.md",
    "keywords":    ["jsdom", "nodejs", "localhost", "url", "testing", "javascript", "jasmine"],
    "author":      { "name": "dna.js", "url": "http://dnajs.org" },
    "scripts": {
