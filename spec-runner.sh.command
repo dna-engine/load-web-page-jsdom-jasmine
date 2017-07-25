@@ -5,6 +5,7 @@
 #    $ chmod +x *.sh.command
 
 info() {
+   # Check for Node.js installation and download project dependencies
    pwd
    echo
    echo "Node.js:"
