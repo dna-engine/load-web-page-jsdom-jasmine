@@ -22,8 +22,8 @@
       "unused":    true
    },
    "devDependencies": {
-      "jasmine": "~2.6",
-      "jsdom":   "~11.0",
+      "jasmine": "~2.8",
+      "jsdom":   "~11.2",
       "jshint":  "~2.9"
    }
 }
