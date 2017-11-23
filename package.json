@@ -34,7 +34,7 @@
    },
    "devDependencies": {
       "jasmine": "~2.8",
-      "jsdom": "~11.3",
+      "jsdom": "~11.4",
       "jshint": "~2.9"
    }
 }
