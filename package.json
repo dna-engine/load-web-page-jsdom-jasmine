@@ -20,10 +20,6 @@
       "name": "dna.js",
       "url": "http://dnajs.org"
    },
-   "scripts": {
-      "pretest": "jshint spec.js",
-      "test": "jasmine spec.js"
-   },
    "jshintConfig": {
       "esversion": 6,
       "strict": "implied",
@@ -32,9 +28,15 @@
       "node": true,
       "jasmine": true
    },
+   "scripts": {
+      "pretest": "jshint spec/*.js spec/**/*.js",
+      "test": "jasmine"
+   },
    "devDependencies": {
-      "jasmine": "~2.8",
-      "jsdom": "~11.5",
+      "jasmine": "~3.1",
+      "jasmine-console-reporter": "~3.0",
+      "jasmine-spec-reporter": "~4.2",
+      "jsdom": "~11.11",
       "jshint": "~2.9"
    }
 }
