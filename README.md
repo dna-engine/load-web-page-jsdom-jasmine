@@ -25,4 +25,4 @@ For a Mocha version, check out:<br>
 [load-web-page-jsdom-mocha](https://github.com/dnajs/load-web-page-jsdom-mocha) (and on [SO](https://stackoverflow.com/a/43221707))
 
 ---
-[dnajs.org](http://dnajs.org) | [MIT License](LICENSE.txt)
+[dnajs.org](https://dnajs.org) | [MIT License](LICENSE.txt)
