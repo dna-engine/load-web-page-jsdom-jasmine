@@ -36,7 +36,7 @@
       "jasmine": "~3.1",
       "jasmine-console-reporter": "~3.0",
       "jasmine-spec-reporter": "~4.2",
-      "jsdom": "~11.11",
+      "jsdom": "~11.12",
       "jshint": "~2.9"
    }
 }
