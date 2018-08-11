@@ -3,7 +3,7 @@
    "description": "Minimal example of loading a web page into jsdom and testing with Jasmine",
    "version": "1.0.0",
    "license": "MIT",
-   "repository": "dnajs/load-web-page-jsdom-jasmine",
+   "repository": "github:dnajs/load-web-page-jsdom-jasmine",
    "homepage": "https://github.com/dnajs/load-web-page-jsdom-jasmine",
    "bugs": "https://github.com/dnajs/load-web-page-jsdom-jasmine/issues",
    "docs": "https://github.com/dnajs/load-web-page-jsdom-jasmine/blob/master/README.md",
@@ -33,7 +33,7 @@
       "test": "jasmine"
    },
    "devDependencies": {
-      "jasmine": "~3.1",
+      "jasmine": "~3.2",
       "jasmine-console-reporter": "~3.0",
       "jasmine-spec-reporter": "~4.2",
       "jsdom": "~11.12",
