@@ -31,6 +31,5 @@ runSpecs() {
    echo
    }
 
-displayIntro
 setupTools
 runSpecs

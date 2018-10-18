@@ -5,7 +5,6 @@ const { JSDOM } = require('jsdom');
 
 // Setup
 const url  = 'https://dragonsgrill.org/';
-//const url  = 'https://dnajs.org/';  //Error: Uncaught [TypeError: Cannot read property 'responseStart' of undefined]
 let window, $;
 function loadWebPage(done) {
    function handleWebPage(dom) {
