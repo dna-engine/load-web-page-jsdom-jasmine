@@ -31,7 +31,7 @@
       "test": "jasmine"
    },
    "devDependencies": {
-      "jasmine": "~3.3",
+      "jasmine": "~3.2",
       "jasmine-console-reporter": "~3.1",
       "jasmine-spec-reporter": "~4.2",
       "jsdom": "~13.0",
