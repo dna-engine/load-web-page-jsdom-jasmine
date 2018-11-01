@@ -3,7 +3,7 @@
 
 _Minimal example of loading a web page into jsdom and testing with Jasmine_
 
-[![Build Status](https://travis-ci.org/dnajs/load-web-page-jsdom-jasmine.svg)](https://travis-ci.org/dnajs/load-web-page-jsdom-jasmine)
+[![Build](https://travis-ci.org/dnajs/load-web-page-jsdom-jasmine.svg)](https://travis-ci.org/dnajs/load-web-page-jsdom-jasmine)
 
 ### Instructions
 Execute `spec-runner.sh.command` or enter the terminal commands:

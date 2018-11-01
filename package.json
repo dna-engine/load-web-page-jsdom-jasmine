@@ -3,10 +3,12 @@
    "description": "Minimal example of loading a web page into jsdom and testing with Jasmine",
    "version": "1.0.0",
    "license": "MIT",
+   "main": "spec/spec.js",
    "repository": "github:dnajs/load-web-page-jsdom-jasmine",
    "homepage": "https://github.com/dnajs/load-web-page-jsdom-jasmine",
    "bugs": "https://github.com/dnajs/load-web-page-jsdom-jasmine/issues",
-   "docs": "https://github.com/dnajs/load-web-page-jsdom-jasmine/blob/master/README.md",
+   "docs": "https://github.com/dnajs/load-web-page-jsdom-jasmine#readme",
+   "author": "Center Key (https://centerkey.com)",
    "keywords": [
       "jsdom",
       "nodejs",
@@ -16,10 +18,6 @@
       "javascript",
       "jasmine"
    ],
-   "author": {
-      "name": "dna.js",
-      "url": "https://dnajs.org"
-   },
    "jshintConfig": {
       "esversion": 6,
       "strict": "implied",
@@ -33,10 +31,10 @@
       "test": "jasmine"
    },
    "devDependencies": {
-      "jasmine": "~3.2",
+      "jasmine": "~3.3",
       "jasmine-console-reporter": "~3.1",
       "jasmine-spec-reporter": "~4.2",
-      "jsdom": "~12.2",
+      "jsdom": "~13.0",
       "jshint": "~2.9"
    }
 }
