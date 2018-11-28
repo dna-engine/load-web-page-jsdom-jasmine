@@ -18,7 +18,7 @@ For development testing, set the `url` variable in **spec.js** to your local web
 `http://localhost:8080`
 
 <img src=https://raw.githubusercontent.com/dnajs/load-web-page-jsdom-jasmine/master/screenshot.png
-   width=400 alt=logo>
+   width=400 alt=screenshot>
 
 ### Comparison
 For a Mocha version, check out:<br>
