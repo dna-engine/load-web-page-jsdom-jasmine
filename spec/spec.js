@@ -6,19 +6,19 @@ const { JSDOM } = require('jsdom');
 // Setup
 const url  = 'https://dragonsgrill.org/';
 let window, $;
-function loadWebPage(done) {
-   function handleWebPage(dom) {
-      function waitForScripts() {
+const loadWebPage = (done) => {
+   const handleWebPage = (dom) => {
+      const waitForScripts = () => {
          window = dom.window;
          $ = dom.window.jQuery;
          done();
-         }
+         };
       dom.window.onload = waitForScripts;
-      }
+      };
    const options = { resources: 'usable', runScripts: 'dangerously' };
    JSDOM.fromURL(url, options).then(handleWebPage);
-   }
-function closeWebPage() { window.close(); }
+   };
+const closeWebPage = () => window.close();
 
 ////////////////////////////////////////////////////////////////////////////////////////////////////
 describe('The web page', () => {
