@@ -21,6 +21,7 @@
    "jshintConfig": {
       "esversion": 9,
       "strict": "implied",
+      "eqeqeq": true,
       "undef": true,
       "unused": true,
       "node": true,
@@ -31,9 +32,9 @@
       "test": "jasmine"
    },
    "devDependencies": {
-      "jasmine": "~3.3",
+      "jasmine": "~3.4",
       "jasmine-spec-reporter": "~4.2",
-      "jsdom": "~14.0",
+      "jsdom": "~15.1",
       "jshint": "~2.10",
       "request": "~2.88"
    }

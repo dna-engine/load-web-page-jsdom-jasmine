@@ -31,11 +31,11 @@ describe('The web page', () => {
       });
 
    it('has exactly one header, main, and footer', () => {
-      const actual =   {
-          header: $('body >header').length,
-          main:   $('body >main').length,
-          footer: $('body >footer').length
-          };
+      const actual = {
+         header: $('body >header').length,
+         main:   $('body >main').length,
+         footer: $('body >footer').length
+         };
       const expected = { header: 1, main: 1, footer: 1 };
       expect(actual).toEqual(expected);
       });
