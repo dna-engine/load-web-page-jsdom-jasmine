@@ -10,13 +10,13 @@
    "docs": "https://github.com/dnajs/load-web-page-jsdom-jasmine#readme",
    "author": "Center Key (https://centerkey.com)",
    "keywords": [
-      "jsdom",
-      "nodejs",
-      "localhost",
-      "url",
-      "testing",
+      "jasmine",
       "javascript",
-      "jasmine"
+      "jsdom",
+      "localhost",
+      "nodejs",
+      "testing",
+      "url"
    ],
    "jshintConfig": {
       "esversion": 9,
@@ -37,6 +37,6 @@
       "jasmine-spec-reporter": "~4.2",
       "jsdom": "~15.2",
       "jshint": "~2.10",
-      "request": "~2.88"
+      "server-listening": "~0.1"
    }
 }
