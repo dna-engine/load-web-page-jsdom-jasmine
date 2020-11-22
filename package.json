@@ -33,10 +33,10 @@
    },
    "devDependencies": {
       "canvas": "~2.6",
-      "jasmine": "~3.5",
-      "jasmine-spec-reporter": "~4.2",
-      "jsdom": "~15.2",
-      "jshint": "~2.10",
+      "jasmine": "~3.6",
+      "jasmine-spec-reporter": "~6.0",
+      "jsdom": "~16.4",
+      "jshint": "~2.12",
       "server-listening": "~0.1"
    }
 }
