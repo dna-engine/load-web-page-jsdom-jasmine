@@ -1,7 +1,7 @@
 // Jasmine Specification Cases
 
 // Imports
-const serverListening = require('server-listening');
+const { serverListening } = require('server-listening');
 const { JSDOM } =       require('jsdom');
 
 // Setup

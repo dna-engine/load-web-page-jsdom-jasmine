@@ -37,6 +37,6 @@
       "jasmine-spec-reporter": "~6.0",
       "jsdom": "~16.4",
       "jshint": "~2.12",
-      "server-listening": "~0.1"
+      "server-listening": "~0.2"
    }
 }
