@@ -1,5 +1,5 @@
 #!/bin/bash
-# Spec Runner
+# Task Runner
 #
 # To make this file runnable:
 #     $ chmod +x *.sh.command
