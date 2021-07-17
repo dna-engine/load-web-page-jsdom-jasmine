@@ -1,4 +1,4 @@
-// Jasmine Specification Cases
+// Jasmine Specification Suite
 
 // Imports
 const { serverListening } = require('server-listening');

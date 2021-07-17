@@ -28,7 +28,7 @@
       "jasmine": true
    },
    "scripts": {
-      "pretest": "jshint spec",
+      "pretest": "jshint . --exclude node_modules",
       "test": "jasmine"
    },
    "devDependencies": {
@@ -37,6 +37,6 @@
       "jasmine-spec-reporter": "~7.0",
       "jsdom": "~16.6",
       "jshint": "~2.13",
-      "server-listening": "~0.2"
+      "server-listening": "~0.3"
    }
 }
