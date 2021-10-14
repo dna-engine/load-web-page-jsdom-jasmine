@@ -33,7 +33,7 @@
    },
    "devDependencies": {
       "canvas": "~2.8",
-      "jasmine": "~3.9",
+      "jasmine": "~3.10",
       "jasmine-spec-reporter": "~7.0",
       "jsdom": "~18.0",
       "jshint": "~2.13",
