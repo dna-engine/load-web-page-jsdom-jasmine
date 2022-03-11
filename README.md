@@ -3,7 +3,7 @@
 
 _Minimal example of loading a web page into jsdom and testing with Jasmine_
 
-[![Build](https://github.com/dnajs/load-web-page-jsdom-jasmine/workflows/build/badge.svg)](https://github.com/dnajs/load-web-page-jsdom-jasmine/actions?query=workflow%3Abuild)
+[![Build](https://github.com/dnajs/load-web-page-jsdom-jasmine/workflows/build/badge.svg)](https://github.com/dnajs/load-web-page-jsdom-jasmine/actions/workflows/run-spec-on-push.yaml)
 
 ### Instructions
 Execute `spec-runner.sh.command` or enter the terminal commands:
