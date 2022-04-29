@@ -2,7 +2,7 @@
 
 // Imports
 const { serverListening } = require('server-listening');
-const { JSDOM } =       require('jsdom');
+const { JSDOM } =           require('jsdom');
 
 // Setup
 const url = 'https://pretty-print-json.js.org/';
