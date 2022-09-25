@@ -28,12 +28,12 @@
       "jasmine": true
    },
    "scripts": {
-      "pretest": "jshint . --exclude node_modules",
+      "pretest": "jshint . --exclude-path .gitignore",
       "test": "jasmine"
    },
    "devDependencies": {
-      "canvas": "~2.9",
-      "jasmine": "~4.2",
+      "canvas": "~2.10",
+      "jasmine": "~4.4",
       "jasmine-spec-reporter": "~7.0",
       "jsdom": "~20.0",
       "jshint": "~2.13",
