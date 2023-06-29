@@ -10,11 +10,12 @@ const jsdomOptions = { resources: 'usable', runScripts: 'dangerously' };
 let dom;
 const loadWebPage = () => JSDOM.fromURL(url, jsdomOptions)
    .then(serverListening.jsdomOnLoad)
-   .then((jsdom) => dom = jsdom);
+   .then(jsdom => dom = jsdom);
 const closeWebPage = () => serverListening.jsdomCloseWindow(dom);
 
 ////////////////////////////////////////////////////////////////////////////////
 describe('The web page', () => {
+   const getTags = (elems) => [...elems].map(elem => elem.nodeName.toLowerCase());
    beforeAll(loadWebPage);
    afterAll(closeWebPage);
 
@@ -24,14 +25,15 @@ describe('The web page', () => {
       expect(actual).toEqual(expected);
       });
 
-   it('has exactly one header, main, and footer', () => {
-      const $ = dom.window.$;
-      const actual =   {
-         header: $('body >header').length,
-         main:   $('body >main').length,
-         footer: $('body >footer').length
-         };
-      const expected = { header: 1, main: 1, footer: 1 };
+   it('has a body with exactly one header, main, and footer -- body.children', () => {
+      const actual =   getTags(dom.window.document.body.children);
+      const expected = ['header', 'main', 'footer'];
+      expect(actual).toEqual(expected);
+      });
+
+   it('has a body with exactly one header, main, and footer -- querySelectorAll()', () => {
+      const actual =   getTags(dom.window.document.querySelectorAll('body >*'));
+      const expected = ['header', 'main', 'footer'];
       expect(actual).toEqual(expected);
       });
 

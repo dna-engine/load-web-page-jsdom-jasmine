@@ -34,7 +34,7 @@
    "devDependencies": {
       "jasmine": "~5.0",
       "jasmine-spec-reporter": "~7.0",
-      "jsdom": "~22.0",
+      "jsdom": "~22.1",
       "jshint": "~2.13",
       "server-listening": "~1.0"
    }
