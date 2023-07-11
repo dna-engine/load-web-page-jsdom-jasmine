@@ -3,7 +3,9 @@
    "description": "Minimal example of loading a web page into jsdom and testing with Jasmine",
    "version": "1.0.0",
    "license": "MIT",
-   "main": "spec/spec.js",
+   "type": "module",
+   "module": "spec/web.spec.js",
+   "main": "spec/web.spec.js",
    "repository": "github:dna-engine/load-web-page-jsdom-jasmine",
    "homepage": "https://github.com/dna-engine/load-web-page-jsdom-jasmine",
    "bugs": "https://github.com/dna-engine/load-web-page-jsdom-jasmine/issues",
@@ -29,13 +31,14 @@
    },
    "scripts": {
       "pretest": "jshint . --exclude-path .gitignore",
-      "test": "jasmine"
+      "test": "jasmine --reporter=jasmine-ts-console-reporter"
    },
    "devDependencies": {
+      "assert-deep-strict-equal": "~1.1",
       "jasmine": "~5.0",
-      "jasmine-spec-reporter": "~7.0",
+      "jasmine-ts-console-reporter": "~3.1",
       "jsdom": "~22.1",
       "jshint": "~2.13",
-      "server-listening": "~1.0"
+      "server-listening": "~1.1"
    }
 }
