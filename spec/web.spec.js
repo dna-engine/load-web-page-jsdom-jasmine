@@ -20,19 +20,25 @@ describe('The web page', () => {
    beforeAll(loadWebPage);
    afterAll(closeWebPage);
 
-   it('has the correct URL -> ' + url, () => {
+   it('has the correct URL', () => {
       const actual =   { url: dom.window.location.href };
       const expected = { url: url };
       assertDeepStrictEqual(actual, expected);
       });
 
-   it('has a body with exactly one header, main, and footer -- body.children', () => {
+   it('title starts with "Pretty-Print JSON"', () => {
+      const actual =   { title: dom.window.document.title.substring(0, 17) };
+      const expected = { title: 'Pretty-Print JSON' };
+      assertDeepStrictEqual(actual, expected);
+      });
+
+   it('body has exactly one header, main, and footer -- body.children', () => {
       const actual =   getTags(dom.window.document.body.children);
       const expected = ['header', 'main', 'footer'];
       assertDeepStrictEqual(actual, expected);
       });
 
-   it('has a body with exactly one header, main, and footer -- querySelectorAll()', () => {
+   it('body has exactly one header, main, and footer -- querySelectorAll()', () => {
       const actual =   getTags(dom.window.document.querySelectorAll('body >*'));
       const expected = ['header', 'main', 'footer'];
       assertDeepStrictEqual(actual, expected);
@@ -46,7 +52,7 @@ describe('The document content', () => {
    afterAll(closeWebPage);
 
    it('has a 🚀 traveling to 🪐!', () => {
-      const html = dom.window.document.documentElement.outerHTML;
+      const html =     dom.window.document.documentElement.outerHTML;
       const actual =   { '🚀': !!html.match(/🚀/g), '🪐': !!html.match(/🪐/g) };
       const expected = { '🚀': true,                '🪐': true };
       assertDeepStrictEqual(actual, expected);
