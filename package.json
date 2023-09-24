@@ -6,7 +6,10 @@
    "type": "module",
    "module": "spec/web.spec.js",
    "main": "spec/web.spec.js",
-   "repository": "github:dna-engine/load-web-page-jsdom-jasmine",
+   "repository": {
+      "type": "git",
+      "url": "git+https://github.com/dna-engine/load-web-page-jsdom-jasmine.git"
+   },
    "homepage": "https://github.com/dna-engine/load-web-page-jsdom-jasmine",
    "bugs": "https://github.com/dna-engine/load-web-page-jsdom-jasmine/issues",
    "docs": "https://github.com/dna-engine/load-web-page-jsdom-jasmine#readme",
