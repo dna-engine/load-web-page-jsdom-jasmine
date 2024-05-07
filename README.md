@@ -3,7 +3,7 @@
 
 _Minimal example of loading a web page into jsdom and testing with Jasmine_
 
-[![Build](https://github.com/dna-engine/load-web-page-jsdom-jasmine/workflows/build/badge.svg)](https://github.com/dna-engine/load-web-page-jsdom-jasmine/actions/workflows/run-spec-on-push.yaml)
+[![Build](https://github.com/dna-engine/load-web-page-jsdom-jasmine/actions/workflows/run-spec-on-push.yaml/badge.svg)](https://github.com/dna-engine/load-web-page-jsdom-jasmine/actions/workflows/run-spec-on-push.yaml)
 
 ### Instructions
 Execute `spec-runner.sh.command` or enter the terminal commands:
